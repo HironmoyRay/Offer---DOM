@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.alert-container {
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+}
+.alert-container p {
+  color: white;
+  font-size: 14px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  color: #959595;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .menu-div,
+nav .lock-div {
+  padding: 4px;
+}
+nav i {
+  font-size: 18px;
+}
+nav .name-div {
+  flex-grow: 1;
+  width: 100%;
+  /* background-color: red; */
+}
+nav .name-div h1 {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* slider section  */
+
+/* .slider-div {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  width: 100%;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color: red; */
+}
+.slider-div .item {
+  width: 100%;
+  max-width: 86px;
+  height: 110px;
+  margin: 20px 10px;
+  /* background-color: aqua; */
+}
+.slider-div .img-div {
+  width: 86px;
+  height: 86px;
+  /* border: 1px solid red; */
+  border-radius: 100%;
+  background-color: #9595952a;
+}
+.slider-div .img-div img {
+  width: 100%;
+  object-fit: contain;
+}
+.slider-div p {
+  color: rgba(70, 72, 70, 1);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 4px;
+} */
